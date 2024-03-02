@@ -50,6 +50,14 @@ public class FridgeScript : NetworkBehaviour
     int iceCreamCount2 = 0;
     int cherryCount2 = 0;
 
+    // EDIT: turn basket lights on and off
+    public Light leftLight;
+    public Light rightLight;
+
+    // EDIT: temp variables to destroy the lights
+    Light tempLeftLight;
+    Light tempRightLight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -321,6 +329,8 @@ public class FridgeScript : NetworkBehaviour
                 // EDIT: instantiate a smoothie
                 Debug.Log("smoothie");
                 Instantiate(smoothie, new Vector3(-3.462f, 0.783f, 4.5f), Quaternion.identity);
+                // EDIT: make the left light turn on through instantiation with correct rotation
+                tempLeftLight = Instantiate(leftLight, new Vector3(-3.462f, 3.245f, 4.495f), Quaternion.Euler(90, 0, 0));
             }
         }
 
@@ -382,6 +392,8 @@ public class FridgeScript : NetworkBehaviour
                 // EDIT: instantiate a sundae
                 Debug.Log("sundae");
                 Instantiate(sundae, new Vector3(3.54f, 0.94f, -5.471f), Quaternion.identity);
+                // EDIT: make the right light turn on through instantiation with correct rotation
+                tempRightLight = Instantiate(rightLight, new Vector3(3.6f, 3.268f, -5.459f), Quaternion.Euler(90, 0, 0));
             }
         }
 
@@ -408,10 +420,12 @@ public class FridgeScript : NetworkBehaviour
         if (collider.CompareTag("Sundae"))
         {
             Destroy(collider.gameObject);
+            Destroy(tempRightLight);
         }
         if (collider.CompareTag("Smoothie"))
         {
             Destroy(collider.gameObject);
+            Destroy(tempLeftLight);
         }
 
     }

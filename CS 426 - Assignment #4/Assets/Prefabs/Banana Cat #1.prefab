@@ -305,6 +305,8 @@ MonoBehaviour:
   bBanana1: {fileID: 5843175432065988558, guid: c2d1f1db8947e3a469f6cd5ca93fa498, type: 3}
   smoothie: {fileID: 8003992726470660360, guid: 33e11e3ea88fd534fa24d077fe50e7f2, type: 3}
   sundae: {fileID: 3062297006341294141, guid: 9176a31262db8c04685147f9d61a07c4, type: 3}
+  leftLight: {fileID: 4559957188954252149, guid: b4fe2bc0fac1b4045a2813c12f4d28af, type: 3}
+  rightLight: {fileID: 4357679823557304033, guid: a2c328f6637f84e46bbecb580344044f, type: 3}
 --- !u!1001 &385841927289187413
 PrefabInstance:
   m_ObjectHideFlags: 0
