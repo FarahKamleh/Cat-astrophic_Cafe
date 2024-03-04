@@ -31,4 +31,5 @@ Banana Split - DTStheTDS,
 Ice Cream - adityajaiswal9968,
 Blender - giga,
 Hanging Light - FlipTheBird,
+Table Bell - gla_bot,
 and Basket - PRINCE.JACK.
