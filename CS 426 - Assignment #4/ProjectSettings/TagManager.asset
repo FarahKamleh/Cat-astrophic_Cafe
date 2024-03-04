@@ -20,6 +20,7 @@ TagManager:
   - MilkLabel
   - Sundae
   - Smoothie
+  - BananaCat
   layers:
   - Default
   - TransparentFX
