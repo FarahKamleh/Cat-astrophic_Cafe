@@ -10,16 +10,18 @@ Two types of lights have been added in addition to the one that existed in the o
 1. Stationary, pink point lights to illuminate the interiors of the two fridges.
 2. Pink spotlights above the delivery baskets that are revealed by building the correct order. They remain lit until the user removes the finished order with a click.
 
-### Textures/Billboards
-
-1.
-
 ### Physics Constructs
 
 Two physics-related additions have been made which are linked to each other:
 
 1. A 3D model of a bell sits on the front counter. When a collision occurs between the box collider of the bell and that of the player, a ringing sound is heard and the following physics-related addition happens.
 2. After the bell has been "pressed", gravity is triggered and the banana cat customers fall from the sky and land on the ground in front of the delivery basket.
+
+### Textures/Billboards
+
+A single billboard with a texture has been added:
+
+1. A sign informing the user to ring the bell to receive customers is located on the front counter. It includes a texture of a cartoon reception bell.
 
 ## Credits
 
