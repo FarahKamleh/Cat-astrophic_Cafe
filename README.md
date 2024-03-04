@@ -12,7 +12,14 @@ Two types of lights have been added in addition to the one that existed in the o
 
 ### Textures/Billboards
 
+1.
+
 ### Physics Constructs
+
+Two physics-related additions have been made which are linked to each other:
+
+1. A 3D model of a bell sits on the front counter. When a collision occurs between the box collider of the bell and that of the player, a ringing sound is heard and the following physics-related addition happens.
+2. After the bell has been "pressed", gravity is triggered and the banana cat customers fall from the sky and land on the ground in front of the delivery basket.
 
 ## Credits
 
