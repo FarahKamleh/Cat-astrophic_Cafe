@@ -23,6 +23,10 @@ A single billboard with a texture has been added:
 
 1. A sign informing the user to ring the bell to receive customers is located on the front counter. It includes a texture of a cartoon reception bell.
 
+## Fitting Into Overall Design
+
+The five additions described above expand upon the existing interaction and setting. The static point light in the fridge not only simulates the real thing, but also allows for the ingredients to be better seen. The spotlight is further confirmation that an order has been completed. The billboard provides instructions for a new interaction which is collision-based. When the bell is rung, customers arrive.
+
 ## Credits
 
 The PlayerMovement.cs script is a modified version of the script provided by the course's teaching assistant Md Nafiul Nipu. Through his guidance, the multiplayer networking of the game was achieved which includes the use of the NetworkManagerUI script.
